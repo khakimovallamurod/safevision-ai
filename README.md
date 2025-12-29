@@ -95,16 +95,6 @@ aniqlanganda **Telegram bot** orqali xabar yuboradi.
 
 ---
 
-## 📌 Yo‘l xaritasi (Roadmap)
-
-* [ ] Backend API (FastAPI / Flask)
-* [ ] YOLO-based model integration
-* [ ] Multi-role user system
-* [ ] Mobile app (Android / iOS)
-* [ ] Cloud deployment
-
----
-
 ## 🤝 Hamkorlik
 
 Loyiha **startup va korxonalar** uchun mo‘ljallangan.
