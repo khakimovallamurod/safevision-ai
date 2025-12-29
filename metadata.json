@@ -1,0 +1,6 @@
+
+{
+  "name": "SafeVision AI - Construction Safety Platform",
+  "description": "Enterprise-grade AI-powered construction safety monitoring platform that detects PPE violations, fire, and smoke in real-time using computer vision.",
+  "requestFramePermissions": ["camera"]
+}
