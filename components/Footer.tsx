@@ -15,10 +15,13 @@ const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="space-y-8 text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-2">
-              <div className="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center font-black text-slate-950">SV</div>
-              <span className="text-2xl font-manrope tracking-tighter text-white">
-                <span className="font-black">SAFE</span><span className="font-light">VISION</span>
-              </span>
+              <div className="flex items-center gap-6 cursor-pointer">
+                <img
+                  src="assets/images/safevision-logo.png"
+                  alt="SafeVision Logo"
+                  className="w-36 h-auto object-contain"
+                />
+              </div>              
             </div>
             <p className="text-slate-400 text-sm leading-relaxed font-medium">
               Biz qurilish industriyasini AI texnologiyalari orqali xavfsizroq va aqlliroq qilamiz. 

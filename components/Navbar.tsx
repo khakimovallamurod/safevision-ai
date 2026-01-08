@@ -17,19 +17,15 @@ const Navbar: React.FC = () => {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-950/90 backdrop-blur-md py-3 border-b border-white/5' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-3 group cursor-pointer">
-          {/* SV ICON */}
-          <div className="w-11 h-11 bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-xl shadow-amber-500/30">
-            <span className="font-manrope font-black text-slate-950 text-lg">
-              SV
-            </span>
-          </div>
-
-          {/* LOGO TEXT */}
-          <span className="text-xl font-manrope font-black tracking-tight leading-none">
-            <span className="text-white">SAFE</span>
-            <span className="bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 bg-clip-text text-transparent">
-              VISION
-            </span>
+          {/* LOGO ICON + TEXT O'RNIGA BITTA IMAGE */}
+          <span className="font-manrope font-black text-slate-950 text-lg">
+            <div className="flex items-center gap-6 cursor-pointer">
+              <img
+                src="assets/images/safevision-logo.png"
+                alt="SafeVision Logo"
+                className="w-36 h-auto object-contain"
+              />
+            </div>
           </span>
         </div>
         {/* Desktop Links */}

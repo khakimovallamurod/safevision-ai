@@ -53,19 +53,8 @@ const DemoSection: React.FC = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />
-
-              <div className="absolute bottom-6 left-6 right-6 p-4 glass rounded-xl border border-white/10 backdrop-blur-md pointer-events-none">
-                <p className="text-[10px] font-bold text-white uppercase tracking-[0.2em] mb-1">
-                  Live Demo Video
-                </p>
-                <p className="text-xs text-slate-400">
-                  SAFEVISION v2.5 — PRODUCTION GRADE AI
-                </p>
-              </div>
-
             </div>
           </div>
-
         </div>
       </div>
     </section>
